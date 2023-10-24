@@ -3,8 +3,7 @@ import gradio as gr
 
 # def greet(name):
 #     return "Hello " + name + "!"
-
-
+# Testing Replit
 def greet(name, is_morning, temperature):
     salutation = "Good Morning" if is_morning else "Good Evening"
     greeting = f"{salutation} {name}. It is {temperature} degrees today"
